@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student admission form</title>
+</head>
+<b>
+    
+    <h2>Student admission form</h2>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter student name" >
+        <br></br>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email" >
+        <br></br>
+        <label>Gender:</label>
+        <input type="radio" name="Gender">male 
+        <input type="radio" name="Gender">female 
+        <br></br>
+        <label>Date of birth:</label>
+        <input type="date" placeholder="Enter date of birth" >
+        <br></br>
+        <label>Select course:</label>
+        <select>
+            <option>select course</option>
+            <option>MERN</option>
+            <option>DATA ANALYTICS</option>
+            <option>MACHINE LEARNING</option>
+            <option>CLOUD COMPUTING</option>
+        </select>
+        <br></br>
+        <label>Select College:</label>
+        <input type="text" list="college">
+        <datalist id="college">
+            <option>IIT</option>
+            <option>NIT</option>
+            <option>IIIT</option>
+            <option>SICSR</option>
+        </datalist>
+        <br></br>
+        <label for="">Upload image:</label>
+        <input type="file" >
+        <br></br>
+        <label>condition:</label>
+        <input type="checkbox" >I agree
+        <br>
+        <input type="checkbox" >subscribe
+        <br></br>
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+</html>
