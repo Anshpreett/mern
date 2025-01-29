@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        .child {
+            font-size: 20px;
+            background-color: #ff9aae;
+            border: 2px solid crimson;
+            padding: 20px;
+        }
+
+        .parent {
+            display: flex;
+            flex-direction: row;
+            /* justify-content: flex-start; */
+            justify-content: flex-start;
+            /* flex-start, center, flex-end, space-between, space-around, space-evenly */
+            align-items: center;
+            /* flex-start, center, flex-end, stretch */
+            height: 100vh;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="parent">
+        <div class="child">
+            Child 1
+        </div>
+        <div class="child">
+            Child 2
+        </div>
+        <div class="child">
+            Child 3
+        </div>
+    </div>
+
+</body>
+
+</html>
