@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Card</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- Tailwind CSS -->
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+    <div class="w-full max-w-2xl bg-white rounded-lg shadow-md overflow-hidden p-4">
+        <div class="flex flex-col md:flex-row items-center">
+            <!-- Product Image -->
+            <div class="w-full md:w-1/3 p-2">
+                <img class="w-full h-auto object-cover rounded-md" src="https://plus.unsplash.com/premium_photo-1679513691474-73102089c117?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lfGVufDB8fDB8fHww" alt="Product Image">
+            </div>
+
+            <!-- Product Details -->
+            <div class="w-full md:w-2/3 p-4">
+                <span class="text-xs bg-indigo-100 text-indigo-600 px-2 py-1 rounded">New Arrival</span>
+                
+                <h2 class="mt-2 text-lg font-semibold text-gray-800">
+                    ZEBRONICS Zeb-Thunderpro Wireless Headset
+                </h2>
+                
+                <p class="text-gray-500 text-sm mt-1 line-through">₹999</p>
+                <p class="text-blue-600 font-bold text-xl">₹799</p>
+
+                <p class="text-green-600 text-sm mt-1">✔ 50+ pcs in stock</p>
+
+                <p class="text-red-500 text-sm font-semibold mt-2">Offer valid till stock lasts!</p>
+
+                <!-- Buttons -->
+                <div class="mt-4">
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                        Buy Now
+                    </button>
+
+                    <div class="flex flex-col md:flex-row mt-2 gap-2">
+                        <!-- Add to Cart Button with Icon -->
+                        <button class="w-full flex items-center justify-center bg-gray-200 text-gray-700 py-2 rounded-lg hover:bg-gray-300">
+                            <svg class="w-5 h-5 mr-2 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h18l-1.8 10H5.8L3 3zm0 0l1.5 9h15L21 3M3 3l4 4m14-4l-4 4"></path>
+                            </svg>
+                            Add to Cart
+                        </button>
+
+                        <!-- Add to Wishlist Button with Icon -->
+                        <button class="w-full flex items-center justify-center bg-gray-200 text-gray-700 py-2 rounded-lg hover:bg-gray-300">
+                            <svg class="w-5 h-5 mr-2 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21l-1-1c-5-5-7-8-7-11a7 7 0 0114 0c0 3-2 6-7 11z"></path>
+                            </svg>
+                            Add to Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
